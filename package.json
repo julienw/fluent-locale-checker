@@ -1,0 +1,22 @@
+{
+  "name": "fluent-locale-checker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MPL-2.0",
+  "scripts": {
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test-all": "run-p build format lint"
+  },
+  "dependencies": {
+    "@fluent/bundle": "^0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "npm-run-all2": "^6.0.6",
+    "prettier": "^3.0.0"
+  }
+}
